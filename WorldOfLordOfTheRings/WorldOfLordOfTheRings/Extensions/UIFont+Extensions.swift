@@ -32,7 +32,14 @@ extension UIFont {
     enum Sevillana {
         enum regular {
             static func size(of size: CGFloat) -> UIFont {
-                return UIFont(name: Constans.Edu.regular, size: size)!
+                return UIFont(name: Constans.Sevillana.regular, size: size)!
+            }
+        }
+    }
+    enum GreatVibes {
+        enum regular {
+            static func size(of size: CGFloat) -> UIFont {
+                return UIFont(name: Constans.GreatVibes.regular, size: size)!
             }
         }
     }
@@ -47,6 +54,9 @@ private extension UIFont {
             static let semiBold = "EduAUVICWANTArrows-SemiBold"
             static let medium = "EduAUVICWANTArrows-Medium"
             static let regular = "EduAUVICWANTArrows-Regular"
+        }
+        enum GreatVibes {
+            static let regular = "GreatVibes-Regular"
         }
     }
 }
